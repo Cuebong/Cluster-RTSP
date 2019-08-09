@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <name>kuka_openrave</name>
+  <version>0.1.0</version>
+  <description>The kuka_openrave package</description>
+
+  <maintainer email="cuebong.wong@strath.ac.uk">Cuebong Wong</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>openrave_catkin</build_depend>
+  
+  <run_depend>openrave_catkin</run_depend>
+</package>

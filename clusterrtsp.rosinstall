@@ -1,0 +1,7 @@
+# Cluster-RTSP
+- git: {local-name: cluster-RTSP, uri: 'https://github.com/Cuebong/Cluster-RTSP.git', version: master}
+
+# Dependencies
+- git: {local-name: raveutils, uri: 'https://github.com/crigroup/raveutils.git', version: master}
+- git: {local-name: openrave_catkin, uri: 'https://github.com/crigroup/openrave_catkin.git', version: master}
+- git: {local-name: baldor, uri: 'https://github.com/crigroup/baldor.git', version: master}

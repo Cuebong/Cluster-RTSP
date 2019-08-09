@@ -1,0 +1,36 @@
+<Robot name="kuka_robotiq_85_gripper">
+	<!-- Include the robots -->
+	<Robot file="kr6r900sixx.dae"/>
+	<Kinbody file="../objects/cylinder.xml">
+		<rotationaxis>0 1 0 90</rotationaxis>
+	</Kinbody>
+
+        <!-- Attach the tool to the robot -->
+	<Kinbody>
+		<body name="virtual_tool">
+			<offsetfrom>link_6</offsetfrom>
+		</body>
+                <joint name="joint_kuka_tool" type="hinge" enable="false">
+			<body>link_6</body>
+			<body>virtual_tool</body>
+			<limits>0 0</limits>
+		</joint>
+	</Kinbody>
+
+
+	<!-- Define the manipulator -->
+	<Manipulator name="end_effector">
+		<base>base</base>
+		<effector>tool0</effector>
+		<!--<translation>0 0 0.144</translation>-->
+		<direction>0 0 1</direction>
+	</Manipulator>
+
+        <Manipulator name="generic_tool">
+		<base>base</base>
+		<effector>virtual_tool</effector>
+		<translation>0 0 0.07</translation>
+		<direction>0 0 1</direction>
+	</Manipulator>
+</Robot>
+		

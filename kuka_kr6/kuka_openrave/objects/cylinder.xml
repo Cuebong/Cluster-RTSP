@@ -1,0 +1,10 @@
+<Kinbody name="virtual_tool">
+    <body name="virtual_tool">
+        <geom type="trimesh">
+            <!-- value after data file specifies scaling factor-->
+            <data>./meshes/cylinder.stl 0.001</data> 
+            <!--<rotationaxis>0 1 0 90</rotationaxis>-->
+            <diffusecolor>0.8 0 0</diffusecolor>
+        </geom>
+    </body>
+</Kinbody>

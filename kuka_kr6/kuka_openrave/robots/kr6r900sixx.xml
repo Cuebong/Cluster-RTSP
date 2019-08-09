@@ -1,0 +1,12 @@
+<Robot name="kuka_robotiq_85_gripper">
+	<!-- Include the robots -->
+	<Robot file="kr6r900sixx.dae"/>
+	<!-- Define the manipulator -->
+	<Manipulator name="end_effector">
+		<base>base</base>
+		<effector>tool0</effector>
+		<!--<translation>0 0 0.144</translation>-->
+		<direction>0 0 1</direction>
+	</Manipulator>
+</Robot>
+		

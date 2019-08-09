@@ -1,0 +1,7 @@
+#! /usr/bin/env python
+import numpy as np
+from cluster_rtsp import clusterRTSP as c_rtsp
+
+if __name__ == '__main__':
+    HOME = [0, -np.pi / 3, (2 * np.pi) / 3, 0, -np.pi / 3, 0]
+    c_rtsp.clusterRTSP(visualise=1, qhome=HOME, vel_limits=0.75, acc=0.75, visualise_speed=4)

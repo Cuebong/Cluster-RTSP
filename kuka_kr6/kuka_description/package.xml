@@ -1,0 +1,17 @@
+<package>
+  <name>kuka_description</name>
+  <version>0.1.0</version>
+  <description>
+   <p>This package provides the robot descriptions for the KUKA KR6r900 agilus robot.</p>
+  </description>
+  <maintainer email="cuebong.wong@strath.ac.uk">Cuebong Wong</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>robotiq_description</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>rviz</run_depend>
+
+</package>

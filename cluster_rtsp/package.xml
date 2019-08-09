@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cluster_rtsp</name>
+  <version>0.1.0</version>
+  <description>The Cluster-RTSP package</description>
+
+  <author email="cuebong@hotmail.com">Cuebong Wong</author>
+  <maintainer email="cuebong@hotmail.com">Cuebong Wong</maintainer>
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>python-numpy</exec_depend>
+
+</package>
