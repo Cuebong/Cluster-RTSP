@@ -23,15 +23,15 @@ catkin_make
 ```
 
 ## Running the example
-The example can be run using the run_clusterRTSP file in the ./scripts subdirectory.
+The example can be run using the _run\_clusterRTSP_ file in the ./scripts subdirectory.
 
 Make the file executable:
 ```
-chmod +x ./src/Cluster-RTSP/cluster\_rtsp/scripts\run\_clusterRTSP
+chmod +x ./src/Cluster-RTSP/cluster_rtsp/scripts\run_clusterRTSP
 ```
 
 Run the example using rosrun (make sure you have sourced the setup.bash file using `source ./devel/setup.bash`):
 
 ```
-rosrun cluster\_rtsp run\_clusterRTSP
+rosrun cluster_rtsp run_clusterRTSP
 ```
