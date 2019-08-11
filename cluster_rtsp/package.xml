@@ -10,6 +10,12 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>baldor</exec_depend>
+  <exec_depend>raveutils</exec_depend>
   <exec_depend>python-numpy</exec_depend>
+  <exec_depend>python-rospkg</exec_depend>
+  <exec_depend>python-networkx</exec_depend>
+  <exec_depend>python-scipy</exec_depend>
+  <exec_depend>python-sklearn</exec_depend>
 
 </package>
