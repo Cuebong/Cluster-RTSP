@@ -27,7 +27,7 @@ The example can be run using the _run\_clusterRTSP_ file in the ./scripts subdir
 
 Make the file executable:
 ```
-chmod +x ./src/Cluster-RTSP/cluster_rtsp/scripts\run_clusterRTSP
+chmod +x ./src/Cluster-RTSP/cluster_rtsp/scripts/run_clusterRTSP
 ```
 
 Run the example using rosrun (make sure you have sourced the setup.bash file using `source ./devel/setup.bash`):
