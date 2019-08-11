@@ -3,7 +3,8 @@ This ROS package provides an example implementation of the Cluster-RTSP algorith
 
 ## Dependencies
 This package was developed on OpenRave 0.9.0, which can be installed from this [GitHub page](https://github.com/crigroup/openrave-installation).
-To install, wstool is required. This can be installed using `sudo apt-get install python-wstool`.
+
+Installing Cluster-RTSP requires wstool. This can be installed using `sudo apt-get install python-wstool`.
 
 
 ## Installation
