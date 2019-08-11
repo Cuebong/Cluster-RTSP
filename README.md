@@ -30,7 +30,12 @@ Make the file executable:
 chmod +x ./src/Cluster-RTSP/cluster_rtsp/scripts/run_clusterRTSP
 ```
 
-Run the example using rosrun (make sure you have sourced the setup.bash file using `source ./devel/setup.bash`):
+Start roscore:
+```
+roscore
+```
+
+Run the example using rosrun (make sure you have sourced the setup.bash file using `source ./devel/setup.bash`). From a new terminal:
 
 ```
 rosrun cluster_rtsp run_clusterRTSP
