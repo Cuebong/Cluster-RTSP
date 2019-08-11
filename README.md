@@ -2,10 +2,10 @@
 This ROS package provides an example implementation of the Cluster-RTSP algorithm for solving spatially-constrained robotic task sequencing problems. It has been tested on Ubuntu 14.04 and Ubuntu 16.04.
 
 ## Dependencies
-This package was developed on OpenRave 0.9.0, which can be installed from this [GitHub page](https://github.com/crigroup/openrave-installation).
-
-Installing Cluster-RTSP requires wstool. This can be installed using `sudo apt-get install python-wstool`.
-
+The following software is required to install Cluster-RTSP:
+- OpenRave 0.9.0 see this [GitHub page](https://github.com/crigroup/openrave-installation)
+- Python 2.7
+- wstool (To install use `sudo apt-get install python-wstool`)
 
 ## Installation
 Create a new workspace, e.g.:
