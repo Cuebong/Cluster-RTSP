@@ -39,8 +39,9 @@ Start roscore:
 roscore
 ```
 
-Run the example using rosrun (make sure you have sourced the setup.bash file using `source ~/catkin_ws/devel/setup.bash`). From a new terminal:
+Run the example using rosrun. From a new terminal:
 
 ```
+source ~/catkin_ws/devel/setup.bash
 rosrun cluster_rtsp run_clusterRTSP
 ```
